@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+          <h1>Forget password</h1>
+          <form action="/forgot" method="get">
+              <div class="txt_field">
+                  <input type="text" name="email" required>
+                  <span></span>
+                  <label>Email</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" name="newpassword" required>
+                  <span></span>
+                  <label>Enter New Password</label>
+              </div>
+              <div class="txt_field">
+                <input type="password" name="repassword" required>
+                <span></span>
+                <label>ConfirmPassword</label>
+            </div>
+              
+              <input name="submit" type="Submit" value="update">
+              
+          </form>
+      </div>
+    </div>
+  </body>
+</html>

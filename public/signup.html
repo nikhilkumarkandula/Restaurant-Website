@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+          <h1>Signup</h1>
+          <form action="/signup" method="POST">
+              <div class="txt_field">
+                  <input type="text" name="fname" required>
+                  <span></span>
+                  <label>Firstname</label>
+              </div>
+              <div class="txt_field">
+                <input type="text" name="lname" required>
+                <span></span>
+                <label>Lastname</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="email" required>
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="phone" required>
+                <span></span>
+                <label>Ph No</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+              <div class="txt_field">
+                  <input type="password" name="confirmpassword" required>
+                  <span></span>
+                  <label>confirm password</label>
+              </div>
+              <input name="submit" type="Submit" value="Signup">
+              <div class="signup_link">
+                  Already Member  <a href="login.html">Login</a>
+              </div>
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
